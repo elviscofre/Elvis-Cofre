@@ -1,5 +1,5 @@
-maximo = 0
-minimo = 0
+maximo =  0
+minimo =  0
 while True:
  try:
     numero = input("Ingrese un numero: ")
@@ -12,6 +12,7 @@ while True:
         minimo = numero
  except:
        print("Error, ingrese valores numericos")
+
        
 print("maximo:", maximo)
 print("minimo:", minimo)
