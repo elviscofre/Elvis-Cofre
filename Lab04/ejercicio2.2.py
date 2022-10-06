@@ -11,7 +11,7 @@ while True:
      if int(minimo) > int(numero):
         minimo = numero
  except:
-       print("ingrese valores numericos")
+       print("Error, ingrese valores numericos")
        
 print("maximo:", maximo)
 print("minimo:", minimo)
